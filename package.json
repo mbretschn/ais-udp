@@ -1,0 +1,28 @@
+{
+  "name": "ais-udp",
+  "version": "0.9.13",
+  "description": "A demon service to dispatch a AIVDM/AIVDO Protocol data stream into MongoDB.",
+  "main": "src",
+  "scripts": {
+    "postinstall": "node-config-ts",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "AIS"
+  ],
+  "author": {
+    "name": "Marcel Bretschneider",
+    "email": "info@3epnm.de"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ais-tools": "^0.9.13",
+    "moment": "^2.26.0",
+    "node-config-ts": "2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "typescript": "^3.8.3",
+    "ts-node": "^8.10.1"
+  }
+}

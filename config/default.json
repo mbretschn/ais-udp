@@ -1,0 +1,24 @@
+{
+    "database": {
+        "url": "mongodb://localhost:27017",
+        "options": {
+            "useNewUrlParser": true,
+            "useUnifiedTopology": true
+        },
+        "dbName": "ais_tracker",
+        "sender": "***"
+    },
+    "dispatcher": {
+        "udpPort": 10130
+    },
+    "logger": {
+        "level": "info",
+        "filter": 0,
+        "filename": ""
+    },
+    "ssh": {
+        "enabled": false,
+        "forward": "62673:127.0.0.1:61126",
+        "host": "***"
+    }
+}
