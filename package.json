@@ -1,6 +1,6 @@
 {
   "name": "ais-udp",
-  "version": "0.9.13",
+  "version": "0.9.14",
   "description": "A demon service to dispatch a AIVDM/AIVDO Protocol data stream into MongoDB.",
   "main": "src",
   "scripts": {

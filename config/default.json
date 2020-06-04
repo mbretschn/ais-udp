@@ -9,7 +9,7 @@
         "sender": "***"
     },
     "dispatcher": {
-        "udpPort": 10130
+        "udpPort": 10110
     },
     "logger": {
         "level": "info",
@@ -18,7 +18,7 @@
     },
     "ssh": {
         "enabled": false,
-        "forward": "62673:127.0.0.1:61126",
+        "forward": "27017:127.0.0.1:27017",
         "host": "***"
     }
 }
