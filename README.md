@@ -1,7 +1,7 @@
 # AIS UDP
 
 A demon service to dispatch a AIVDM/AIVDO Protocol data stream into MongoDB. 
-Details about this project can be found [here](https://blog.3epnm.de/2020/05/15/AIS-Services/).
+Details about this project can be found [here](https://blog.3epnm.de/2020/05/28/AIS-Services/).
 
 ## Installation
 The installation is done by cloning the project and installing the dependencies.
